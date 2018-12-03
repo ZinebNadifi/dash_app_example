@@ -1,13 +1,3 @@
-
-# coding: utf-8
-
-# In[ ]:
-
-
-#All in one
-
-#hausaufgabe
-
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -104,8 +94,8 @@ html.Div([
                 value='Linear',
                 labelStyle={'display': 'inline-block'}
             )
-        ],style={'width': '48%', 'float': 'right', 'display': 'inline-block'})
-    ]),
+        ],style={'width': '48%', 'float': 'right', 'display': 'inline-block', 'height': '130px'})
+    ], style={'margin-top': '30px', 'margin-bottom': '20px'}),
 
     dcc.Graph(id='indicator-graphic2')
 ])])
